@@ -72,7 +72,7 @@ Curated list of leading open-source projects for self-hosting, sandboxing, micro
 
 Sorted descending by GitHub stargazer count.
 
-| Project | Stars | License | Description |
+| Project | GitHub_Stars | License | Description |
 | :--- | :--- | :--- | :--- |
 | **[Kubernetes](https://github.com/kubernetes/kubernetes)** | [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers) | Apache-2.0 | Production-grade container orchestrator. Foundational engine for ephemeral namespaces, cluster sandboxes, and cloud-native test environments. |
 | **[Daytona](https://github.com/daytonaio/daytona)** | [![Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers) | Apache-2.0 | The open-source development environment manager. Automatically provisions standardized, isolated developer sandboxes with a single CLI command. |
@@ -135,8 +135,8 @@ Contributions are welcome! Please follow these simple guidelines:
 
 1. 🍴 **Fork** the repository and create a new feature branch.
 2. 📝 Ensure new SaaS additions include **specific starting prices**, **detailed free tier limits**, and **company valuation/revenue metrics**.
-3. ⭐ Ensure new open-source entries include a valid **GitHub star badge** (`style=social&color=white`) linked to the repository's stargazers page.
-4. 🔢 Keep entries sorted by their respective metrics (Valuation/Revenue for SaaS, GitHub Stars for Open-Source).
+3. ⭐ Ensure new open-source entries include a valid **GitHub Stars_Badge** (`style=social&color=white`) linked to the repository's stargazers page.
+4. 🔢 Keep entries sorted by their respective metrics (Valuation/Revenue for SaaS, GitHub_Stars for Open-Source).
 5. 🚀 Open a Pull Request with a clear description of the added tool.
 
 ---
