@@ -1,10 +1,24 @@
-# Awesome Cloud Test Sandbox [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud Test Sandbox Banner" width="100%" />
+</p>
 
-> A curated list of top SaaS platforms, Environment-as-a-Service (EaaS) tools, and open-source projects for **Cloud Test Sandboxes**, **ephemeral environments**, and **developer test isolation**.
+# 🧪 Awesome Cloud Test Sandbox
+
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Test-Sandbox/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Test-Sandbox?style=flat-square" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Test-Sandbox/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Test-Sandbox?style=flat-square" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Test-Sandbox/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cloud-Test-Sandbox?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="iGitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🚀 A curated list of top SaaS platforms, Environment-as-a-Service (EaaS) tools, and open-source projects for **Cloud Test Sandboxes**, **ephemeral environments**, and **developer test isolation**.
 
 ---
 
-## Overview
+## 📖 Overview
 
 Modern software development requires reliable, fast, disposable, and reproducible environments for testing, QA, CI/CD validation, and demos. **Cloud Test Sandboxes** enable platform teams, DevOps engineers, and developers to spin up isolated workloads without polluting production or incurring runaway infrastructure costs.
 
@@ -12,18 +26,20 @@ Whether you need enterprise-managed multi-tenant sandbox platforms, secure micro
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Architecture & Framework Ideas](#architecture--framework-ideas)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & License](#disclaimer--license)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🏗️ Architecture & Framework Ideas](#️-architecture--framework-ideas)
+- [📈 Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer & License](#-disclaimer--license)
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global market for **Test Environment as a Service (TEaaS)** and cloud testing sandboxes is estimated at **$17.7 billion in 2025** (with the dedicated cybersecurity cloud sandboxing sub-segment at ~$3.1 billion to $3.7 billion), growing rapidly toward $60+ billion by 2034.
 
@@ -31,7 +47,7 @@ The sector exhibits **moderate fragmentation**: foundational hyper-scale infrast
 
 ---
 
-## SaaS & Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 The following SaaS platforms provide managed cloud sandboxes, ephemeral developer environments, and isolated testing infrastructure. Sorted descending by company size (market valuation / annual revenue).
 
@@ -50,7 +66,7 @@ The following SaaS platforms provide managed cloud sandboxes, ephemeral develope
 
 ---
 
-## Open-Source GitHub Projects
+## 🛠️ Open-Source GitHub Projects
 
 Curated list of leading open-source projects for self-hosting, sandboxing, microVM isolation, ephemeral dev environments, and integration test orchestration.
 
@@ -83,31 +99,50 @@ Sorted descending by GitHub stargazer count.
 
 ---
 
-## Architecture & Framework Ideas
+## 🏗️ Architecture & Framework Ideas
 
 When engineering an enterprise-grade cloud sandbox platform, teams typically combine:
-- **Compute Isolation**: [Firecracker](https://github.com/firecracker-microvm/firecracker), [gVisor](https://github.com/google/gvisor), or [Kata Containers](https://github.com/kata-containers/kata-containers) for microVM-level or kernel-level boundaries.
-- **Cluster Multi-Tenancy**: [vcluster](https://github.com/loft-sh/vcluster) for lightweight virtual Kubernetes clusters per pull request or QA run.
-- **Local Emulation**: [LocalStack](https://github.com/localstack/localstack) for AWS mock testing without cloud latency or egress charges.
-- **Developer Workspaces**: [Daytona](https://github.com/daytonaio/daytona) or [Coder](https://github.com/coder/coder) for on-demand cloud workspaces integrated into CI/CD pipelines.
-- **Secure Access Control**: [Teleport](https://github.com/gravitational/teleport) for auditable, zero-trust sandbox ingress.
+- ⚡ **Compute Isolation**: [Firecracker](https://github.com/firecracker-microvm/firecracker), [gVisor](https://github.com/google/gvisor), or [Kata Containers](https://github.com/kata-containers/kata-containers) for microVM-level or kernel-level boundaries.
+- 🧩 **Cluster Multi-Tenancy**: [vcluster](https://github.com/loft-sh/vcluster) for lightweight virtual Kubernetes clusters per pull request or QA run.
+- 💻 **Local Emulation**: [LocalStack](https://github.com/localstack/localstack) for AWS mock testing without cloud latency or egress charges.
+- 🚀 **Developer Workspaces**: [Daytona](https://github.com/daytonaio/daytona) or [Coder](https://github.com/coder/coder) for on-demand cloud workspaces integrated into CI/CD pipelines.
+- 🛡️ **Secure Access Control**: [Teleport](https://github.com/gravitational/teleport) for auditable, zero-trust sandbox ingress.
 
 ---
 
-## How to Contribute
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Test-Sandbox&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Test-Sandbox&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you so much for exploring and supporting **Awesome-Cloud-Test-Sandbox**! 🙏
+
+If this project has saved you time or helped you design better cloud test environments, please consider:
+- ⭐ **Starring** the repository on GitHub
+- 🍴 **Forking** and contributing your favorite sandbox tools
+- 📢 **Sharing** with your team, platform engineers, and DevOps community
+
+☕ You can also support ongoing maintenance and research by buying a coffee on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support is genuinely appreciated!
+
+---
+
+## 🤝 How to Contribute
 
 Contributions are welcome! Please follow these simple guidelines:
 
-1. **Fork** the repository and create a new feature branch.
-2. Ensure new SaaS additions include **specific starting prices**, **detailed free tier limits**, and **company valuation/revenue metrics**.
-3. Ensure new open-source entries include a valid **GitHub star badge** (`style=social&color=white`) linked to the repository's stargazers page.
-4. Keep entries sorted by their respective metrics (Valuation/Revenue for SaaS, GitHub Stars for Open-Source).
-5. Open a Pull Request with a clear description of the added tool.
+1. 🍴 **Fork** the repository and create a new feature branch.
+2. 📝 Ensure new SaaS additions include **specific starting prices**, **detailed free tier limits**, and **company valuation/revenue metrics**.
+3. ⭐ Ensure new open-source entries include a valid **GitHub star badge** (`style=social&color=white`) linked to the repository's stargazers page.
+4. 🔢 Keep entries sorted by their respective metrics (Valuation/Revenue for SaaS, GitHub Stars for Open-Source).
+5. 🚀 Open a Pull Request with a clear description of the added tool.
 
 ---
 
-## Disclaimer & License
+## 📜 Disclaimer & License
 
-- This list is community-curated for informational and architectural purposes.
-- All trademarks and brand names are the property of their respective owners.
-- Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+- ℹ️ This list is community-curated for informational and architectural purposes.
+- 🏷️ All trademarks and brand names are the property of their respective owners.
+- 📄 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
